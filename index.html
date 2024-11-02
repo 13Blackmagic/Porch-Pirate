@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Porch Pirate</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Porch Pirate</h1>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <h2>What is Porch Pirate?</h2>
+                <p>Porch Pirate is a web application that allows you to steal packages from porches.</p>
+            </div>
+            <div class="content-right">
+                <h2>Sign Up</h2>
+                <form action="signup.php" method="post">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Porch Pirate</p>
+        </div>
+    </div>
 
 
 
